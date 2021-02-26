@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC50869C25E6AD23005DFE05 /* BeeBeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50869B25E6AD23005DFE05 /* BeeBeeApp.swift */; };
+		BC50869E25E6AD23005DFE05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50869D25E6AD23005DFE05 /* ContentView.swift */; };
+		BC5086A025E6AD25005DFE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC50869F25E6AD25005DFE05 /* Assets.xcassets */; };
+		BC5086A325E6AD25005DFE05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5086A225E6AD25005DFE05 /* Preview Assets.xcassets */; };
+		BC5086AD25E6AE6E005DFE05 /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5086AC25E6AE6E005DFE05 /* Pixel.swift */; };
+		BC5086B125E6B056005DFE05 /* Bee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5086B025E6B056005DFE05 /* Bee.swift */; };
+		BC5086B525E6C031005DFE05 /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5086B425E6C031005DFE05 /* Obstacle.swift */; };
+		BC95383425E6EE0C00CF5F27 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95383325E6EE0C00CF5F27 /* Sounds.swift */; };
+		BCF0AC5725E9119200348A65 /* mixkit-arcade-game-jump-coin-216.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF0AC5425E9119200348A65 /* mixkit-arcade-game-jump-coin-216.wav */; };
+		BCF0AC5825E9119200348A65 /* mixkit-positive-interface-beep-221.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF0AC5525E9119200348A65 /* mixkit-positive-interface-beep-221.wav */; };
+		BCF0AC5925E9119200348A65 /* mixkit-game-level-music-689.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF0AC5625E9119200348A65 /* mixkit-game-level-music-689.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC50869825E6AD23005DFE05 /* BeeBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC50869B25E6AD23005DFE05 /* BeeBeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeBeeApp.swift; sourceTree = "<group>"; };
+		BC50869D25E6AD23005DFE05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC50869F25E6AD25005DFE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC5086A225E6AD25005DFE05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC5086A425E6AD25005DFE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5086AC25E6AE6E005DFE05 /* Pixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel.swift; sourceTree = "<group>"; };
+		BC5086B025E6B056005DFE05 /* Bee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bee.swift; sourceTree = "<group>"; };
+		BC5086B425E6C031005DFE05 /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
+		BC95383325E6EE0C00CF5F27 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		BCF0AC5425E9119200348A65 /* mixkit-arcade-game-jump-coin-216.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "mixkit-arcade-game-jump-coin-216.wav"; path = "../../../../Downloads/mixkit-arcade-game-jump-coin-216.wav"; sourceTree = "<group>"; };
+		BCF0AC5525E9119200348A65 /* mixkit-positive-interface-beep-221.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "mixkit-positive-interface-beep-221.wav"; path = "../../../../Downloads/mixkit-positive-interface-beep-221.wav"; sourceTree = "<group>"; };
+		BCF0AC5625E9119200348A65 /* mixkit-game-level-music-689.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "mixkit-game-level-music-689.wav"; path = "../../../../Downloads/mixkit-game-level-music-689.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC50869525E6AD23005DFE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC50868F25E6AD23005DFE05 = {
+			isa = PBXGroup;
+			children = (
+				BC50869A25E6AD23005DFE05 /* BeeBee */,
+				BC50869925E6AD23005DFE05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC50869925E6AD23005DFE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC50869825E6AD23005DFE05 /* BeeBee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC50869A25E6AD23005DFE05 /* BeeBee */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0AC5325E90EF100348A65 /* Sounds */,
+				BC5086AB25E6AE5E005DFE05 /* Components */,
+				BC50869B25E6AD23005DFE05 /* BeeBeeApp.swift */,
+				BC50869D25E6AD23005DFE05 /* ContentView.swift */,
+				BC50869F25E6AD25005DFE05 /* Assets.xcassets */,
+				BC5086A425E6AD25005DFE05 /* Info.plist */,
+				BC5086A125E6AD25005DFE05 /* Preview Content */,
+			);
+			path = BeeBee;
+			sourceTree = "<group>";
+		};
+		BC5086A125E6AD25005DFE05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC5086A225E6AD25005DFE05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC5086AB25E6AE5E005DFE05 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC5086AC25E6AE6E005DFE05 /* Pixel.swift */,
+				BC5086B025E6B056005DFE05 /* Bee.swift */,
+				BC5086B425E6C031005DFE05 /* Obstacle.swift */,
+				BC95383325E6EE0C00CF5F27 /* Sounds.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BCF0AC5325E90EF100348A65 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0AC5425E9119200348A65 /* mixkit-arcade-game-jump-coin-216.wav */,
+				BCF0AC5625E9119200348A65 /* mixkit-game-level-music-689.wav */,
+				BCF0AC5525E9119200348A65 /* mixkit-positive-interface-beep-221.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC50869725E6AD23005DFE05 /* BeeBee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5086A725E6AD25005DFE05 /* Build configuration list for PBXNativeTarget "BeeBee" */;
+			buildPhases = (
+				BC50869425E6AD23005DFE05 /* Sources */,
+				BC50869525E6AD23005DFE05 /* Frameworks */,
+				BC50869625E6AD23005DFE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeBee;
+			productName = BeeBee;
+			productReference = BC50869825E6AD23005DFE05 /* BeeBee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC50869025E6AD23005DFE05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BC50869725E6AD23005DFE05 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BC50869325E6AD23005DFE05 /* Build configuration list for PBXProject "BeeBee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC50868F25E6AD23005DFE05;
+			productRefGroup = BC50869925E6AD23005DFE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC50869725E6AD23005DFE05 /* BeeBee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC50869625E6AD23005DFE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5086A325E6AD25005DFE05 /* Preview Assets.xcassets in Resources */,
+				BCF0AC5825E9119200348A65 /* mixkit-positive-interface-beep-221.wav in Resources */,
+				BC5086A025E6AD25005DFE05 /* Assets.xcassets in Resources */,
+				BCF0AC5925E9119200348A65 /* mixkit-game-level-music-689.wav in Resources */,
+				BCF0AC5725E9119200348A65 /* mixkit-arcade-game-jump-coin-216.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC50869425E6AD23005DFE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5086B125E6B056005DFE05 /* Bee.swift in Sources */,
+				BC50869E25E6AD23005DFE05 /* ContentView.swift in Sources */,
+				BC5086B525E6C031005DFE05 /* Obstacle.swift in Sources */,
+				BC95383425E6EE0C00CF5F27 /* Sounds.swift in Sources */,
+				BC5086AD25E6AE6E005DFE05 /* Pixel.swift in Sources */,
+				BC50869C25E6AD23005DFE05 /* BeeBeeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC5086A525E6AD25005DFE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC5086A625E6AD25005DFE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC5086A825E6AD25005DFE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BeeBee/Preview Content\"";
+				DEVELOPMENT_TEAM = K8SMLRCLP3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BeeBee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danpetre.BeeBee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC5086A925E6AD25005DFE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BeeBee/Preview Content\"";
+				DEVELOPMENT_TEAM = K8SMLRCLP3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BeeBee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danpetre.BeeBee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC50869325E6AD23005DFE05 /* Build configuration list for PBXProject "BeeBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5086A525E6AD25005DFE05 /* Debug */,
+				BC5086A625E6AD25005DFE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5086A725E6AD25005DFE05 /* Build configuration list for PBXNativeTarget "BeeBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5086A825E6AD25005DFE05 /* Debug */,
+				BC5086A925E6AD25005DFE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC50869025E6AD23005DFE05 /* Project object */;
+}
