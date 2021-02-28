@@ -127,11 +127,10 @@ struct ContentView: View {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                 self.isPaused = true
             }
-        }
-        
-        if abs(beePosition.x - obstPosition.x) == 0 {
+        } else if abs(beePosition.x - obstPosition.x) == 0 {
             Sounds.playSounds(soundfile: "mixkit-arcade-game-jump-coin-216.wav")
         }
+        
     }
 
 }
